@@ -7,21 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A6FADF3CC3B61408F468B48 /* Pods_Pit_Scout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17C49E08D5EFB9204C817A7B /* Pods_Pit_Scout.framework */; };
+		F566AF54201C007F00D70CC3 /* Input.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F566AF53201C007F00D70CC3 /* Input.storyboard */; };
+		F566AF56201C010A00D70CC3 /* Output.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F566AF55201C010A00D70CC3 /* Output.storyboard */; };
+		F5818919201D22140003DC6D /* InputVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5818918201D22140003DC6D /* InputVC.swift */; };
+		F581891D201D3A700003DC6D /* OutputVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F581891C201D3A700003DC6D /* OutputVC.swift */; };
 		F5CBD6682010235A00C6549B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CBD6672010235A00C6549B /* AppDelegate.swift */; };
-		F5CBD66A2010235A00C6549B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CBD6692010235A00C6549B /* ViewController.swift */; };
-		F5CBD66D2010235A00C6549B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5CBD66B2010235A00C6549B /* Main.storyboard */; };
+		F5CBD66A2010235A00C6549B /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CBD6692010235A00C6549B /* SignInVC.swift */; };
 		F5CBD66F2010235A00C6549B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5CBD66E2010235A00C6549B /* Assets.xcassets */; };
 		F5CBD6722010235A00C6549B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5CBD6702010235A00C6549B /* LaunchScreen.storyboard */; };
+		F5CBD67A201024FF00C6549B /* Nora in Resources */ = {isa = PBXBuildFile; fileRef = F5CBD679201024FF00C6549B /* Nora */; };
+		F5CBD67E2010271900C6549B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5CBD67D2010271900C6549B /* Main.storyboard */; };
+		F5CBD68220102C6300C6549B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F5CBD68120102C6300C6549B /* GoogleService-Info.plist */; };
+		F5F8F8E82011950D0016EDEA /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F8F8E72011950D0016EDEA /* SignUpVC.swift */; };
+		F5F8F8EA2011957D0016EDEA /* SignOutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F8F8E92011957D0016EDEA /* SignOutVC.swift */; };
+		F5F8F8EC2016C0240016EDEA /* AlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F8F8EB2016C0240016EDEA /* AlertController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		17C49E08D5EFB9204C817A7B /* Pods_Pit_Scout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pit_Scout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E313AB68DBCA26BB53BADB45 /* Pods-Pit Scout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pit Scout.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pit Scout/Pods-Pit Scout.release.xcconfig"; sourceTree = "<group>"; };
+		F27AA946AB914AFCB2A99DB0 /* Pods-Pit Scout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pit Scout.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pit Scout/Pods-Pit Scout.debug.xcconfig"; sourceTree = "<group>"; };
+		F566AF53201C007F00D70CC3 /* Input.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Input.storyboard; sourceTree = "<group>"; };
+		F566AF55201C010A00D70CC3 /* Output.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Output.storyboard; sourceTree = "<group>"; };
+		F5818918201D22140003DC6D /* InputVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputVC.swift; sourceTree = "<group>"; };
+		F581891C201D3A700003DC6D /* OutputVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutputVC.swift; sourceTree = "<group>"; };
 		F5CBD6642010235A00C6549B /* Pit Scout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pit Scout.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5CBD6672010235A00C6549B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F5CBD6692010235A00C6549B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F5CBD66C2010235A00C6549B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F5CBD6692010235A00C6549B /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
 		F5CBD66E2010235A00C6549B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5CBD6712010235A00C6549B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F5CBD6732010235A00C6549B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5CBD679201024FF00C6549B /* Nora */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Nora; sourceTree = "<group>"; };
+		F5CBD67D2010271900C6549B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		F5CBD68120102C6300C6549B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F5D438F82011723700FB1677 /* Pods-Pit Scout.debug 16-24-02-335.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Pods-Pit Scout.debug 16-24-02-335.xcconfig"; sourceTree = "<group>"; };
+		F5D438F92011723700FB1677 /* Pods-Pit Scout.release 16-24-02-344.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Pods-Pit Scout.release 16-24-02-344.xcconfig"; sourceTree = "<group>"; };
+		F5F8F8E72011950D0016EDEA /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		F5F8F8E92011957D0016EDEA /* SignOutVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignOutVC.swift; sourceTree = "<group>"; };
+		F5F8F8EB2016C0240016EDEA /* AlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +53,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A6FADF3CC3B61408F468B48 /* Pods_Pit_Scout.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		44E1547F3559E2DB850BD2F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17C49E08D5EFB9204C817A7B /* Pods_Pit_Scout.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F5CBD65B2010235A00C6549B = {
 			isa = PBXGroup;
 			children = (
 				F5CBD6662010235A00C6549B /* Pit Scout */,
 				F5CBD6652010235A00C6549B /* Products */,
+				44E1547F3559E2DB850BD2F2 /* Frameworks */,
+				F9DB1EA2D0C4BA89C9F0719E /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +89,42 @@
 		F5CBD6662010235A00C6549B /* Pit Scout */ = {
 			isa = PBXGroup;
 			children = (
+				F5D438FC2011727D00FB1677 /* Pods */,
+				F5CBD68120102C6300C6549B /* GoogleService-Info.plist */,
 				F5CBD6672010235A00C6549B /* AppDelegate.swift */,
-				F5CBD6692010235A00C6549B /* ViewController.swift */,
-				F5CBD66B2010235A00C6549B /* Main.storyboard */,
-				F5CBD66E2010235A00C6549B /* Assets.xcassets */,
+				F5CBD6692010235A00C6549B /* SignInVC.swift */,
+				F5F8F8EB2016C0240016EDEA /* AlertController.swift */,
+				F5F8F8E72011950D0016EDEA /* SignUpVC.swift */,
+				F5F8F8E92011957D0016EDEA /* SignOutVC.swift */,
+				F5818918201D22140003DC6D /* InputVC.swift */,
+				F581891C201D3A700003DC6D /* OutputVC.swift */,
+				F566AF55201C010A00D70CC3 /* Output.storyboard */,
+				F5CBD67D2010271900C6549B /* Main.storyboard */,
+				F566AF53201C007F00D70CC3 /* Input.storyboard */,
 				F5CBD6702010235A00C6549B /* LaunchScreen.storyboard */,
+				F5CBD66E2010235A00C6549B /* Assets.xcassets */,
+				F5CBD679201024FF00C6549B /* Nora */,
 				F5CBD6732010235A00C6549B /* Info.plist */,
 			);
 			path = "Pit Scout";
+			sourceTree = "<group>";
+		};
+		F5D438FC2011727D00FB1677 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F5D438F82011723700FB1677 /* Pods-Pit Scout.debug 16-24-02-335.xcconfig */,
+				F5D438F92011723700FB1677 /* Pods-Pit Scout.release 16-24-02-344.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F9DB1EA2D0C4BA89C9F0719E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F27AA946AB914AFCB2A99DB0 /* Pods-Pit Scout.debug.xcconfig */,
+				E313AB68DBCA26BB53BADB45 /* Pods-Pit Scout.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +134,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F5CBD6762010235A00C6549B /* Build configuration list for PBXNativeTarget "Pit Scout" */;
 			buildPhases = (
-				F5CBD6602010235A00C6549B /* Sources */,
+				D087119672CD6CFB14A04001 /* [CP] Check Pods Manifest.lock */,
 				F5CBD6612010235A00C6549B /* Frameworks */,
+				F5CBD6602010235A00C6549B /* Sources */,
 				F5CBD6622010235A00C6549B /* Resources */,
+				85A4349A30D89A20BEE65744 /* [CP] Embed Pods Frameworks */,
+				309ED4E40C8C9A3A2CDC7664 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,35 +189,96 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F566AF56201C010A00D70CC3 /* Output.storyboard in Resources */,
+				F5CBD68220102C6300C6549B /* GoogleService-Info.plist in Resources */,
+				F566AF54201C007F00D70CC3 /* Input.storyboard in Resources */,
+				F5CBD67A201024FF00C6549B /* Nora in Resources */,
+				F5CBD67E2010271900C6549B /* Main.storyboard in Resources */,
 				F5CBD6722010235A00C6549B /* LaunchScreen.storyboard in Resources */,
 				F5CBD66F2010235A00C6549B /* Assets.xcassets in Resources */,
-				F5CBD66D2010235A00C6549B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		309ED4E40C8C9A3A2CDC7664 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pit Scout/Pods-Pit Scout-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85A4349A30D89A20BEE65744 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Pit Scout/Pods-Pit Scout-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pit Scout/Pods-Pit Scout-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D087119672CD6CFB14A04001 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pit Scout-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F5CBD6602010235A00C6549B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5CBD66A2010235A00C6549B /* ViewController.swift in Sources */,
+				F5F8F8EA2011957D0016EDEA /* SignOutVC.swift in Sources */,
+				F5F8F8EC2016C0240016EDEA /* AlertController.swift in Sources */,
+				F5CBD66A2010235A00C6549B /* SignInVC.swift in Sources */,
+				F5F8F8E82011950D0016EDEA /* SignUpVC.swift in Sources */,
 				F5CBD6682010235A00C6549B /* AppDelegate.swift in Sources */,
+				F5818919201D22140003DC6D /* InputVC.swift in Sources */,
+				F581891D201D3A700003DC6D /* OutputVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F5CBD66B2010235A00C6549B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F5CBD66C2010235A00C6549B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F5CBD6702010235A00C6549B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -272,10 +399,12 @@
 		};
 		F5CBD6772010235A00C6549B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F27AA946AB914AFCB2A99DB0 /* Pods-Pit Scout.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 37G7LH6HAE;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "Pit Scout/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.caseyc.Pit-Scout";
@@ -287,12 +416,58 @@
 		};
 		F5CBD6782010235A00C6549B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E313AB68DBCA26BB53BADB45 /* Pods-Pit Scout.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 37G7LH6HAE;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "Pit Scout/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"c++\"",
+					"\"FirebaseCore\"",
+					"-l\"icucore\"",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"FirebaseAnalytics\"",
+					"-framework",
+					"\"FirebaseAuth\"",
+					"-framework",
+					"-framework",
+					"\"FirebaseCoreDiagnostics\"",
+					"-framework",
+					"\"FirebaseDatabase\"",
+					"-framework",
+					"\"FirebaseInstanceID\"",
+					"-framework",
+					"\"FirebaseNanoPB\"",
+					"-framework",
+					"\"FirebaseStorage\"",
+					"-framework",
+					"\"GTMSessionFetcher\"",
+					"-framework",
+					"\"GoogleToolboxForMac\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"SafariServices\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"StoreKit\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"leveldb\"",
+					"-framework",
+					"\"nanopb\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.caseyc.Pit-Scout";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
