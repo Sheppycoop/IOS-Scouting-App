@@ -8,8 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		2A6FADF3CC3B61408F468B48 /* Pods_Pit_Scout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17C49E08D5EFB9204C817A7B /* Pods_Pit_Scout.framework */; };
+		F54840B220295BF900FBCC74 /* teleopVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54840B120295BF900FBCC74 /* teleopVC.swift */; };
 		F566AF54201C007F00D70CC3 /* Input.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F566AF53201C007F00D70CC3 /* Input.storyboard */; };
 		F566AF56201C010A00D70CC3 /* Output.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F566AF55201C010A00D70CC3 /* Output.storyboard */; };
+		F571C7AA202930BF00CD6565 /* AutoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F571C7A9202930BF00CD6565 /* AutoVC.swift */; };
 		F5818919201D22140003DC6D /* InputVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5818918201D22140003DC6D /* InputVC.swift */; };
 		F581891D201D3A700003DC6D /* OutputVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F581891C201D3A700003DC6D /* OutputVC.swift */; };
 		F5CBD6682010235A00C6549B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CBD6672010235A00C6549B /* AppDelegate.swift */; };
@@ -28,8 +30,10 @@
 		17C49E08D5EFB9204C817A7B /* Pods_Pit_Scout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pit_Scout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E313AB68DBCA26BB53BADB45 /* Pods-Pit Scout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pit Scout.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pit Scout/Pods-Pit Scout.release.xcconfig"; sourceTree = "<group>"; };
 		F27AA946AB914AFCB2A99DB0 /* Pods-Pit Scout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pit Scout.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pit Scout/Pods-Pit Scout.debug.xcconfig"; sourceTree = "<group>"; };
+		F54840B120295BF900FBCC74 /* teleopVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = teleopVC.swift; sourceTree = "<group>"; };
 		F566AF53201C007F00D70CC3 /* Input.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Input.storyboard; sourceTree = "<group>"; };
 		F566AF55201C010A00D70CC3 /* Output.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Output.storyboard; sourceTree = "<group>"; };
+		F571C7A9202930BF00CD6565 /* AutoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoVC.swift; sourceTree = "<group>"; };
 		F5818918201D22140003DC6D /* InputVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputVC.swift; sourceTree = "<group>"; };
 		F581891C201D3A700003DC6D /* OutputVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutputVC.swift; sourceTree = "<group>"; };
 		F5CBD6642010235A00C6549B /* Pit Scout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pit Scout.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -96,8 +100,10 @@
 				F5F8F8EB2016C0240016EDEA /* AlertController.swift */,
 				F5F8F8E72011950D0016EDEA /* SignUpVC.swift */,
 				F5F8F8E92011957D0016EDEA /* SignOutVC.swift */,
+				F571C7A9202930BF00CD6565 /* AutoVC.swift */,
 				F5818918201D22140003DC6D /* InputVC.swift */,
 				F581891C201D3A700003DC6D /* OutputVC.swift */,
+				F54840B120295BF900FBCC74 /* teleopVC.swift */,
 				F566AF55201C010A00D70CC3 /* Output.storyboard */,
 				F5CBD67D2010271900C6549B /* Main.storyboard */,
 				F566AF53201C007F00D70CC3 /* Input.storyboard */,
@@ -267,12 +273,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5F8F8EA2011957D0016EDEA /* SignOutVC.swift in Sources */,
+				F571C7AA202930BF00CD6565 /* AutoVC.swift in Sources */,
 				F5F8F8EC2016C0240016EDEA /* AlertController.swift in Sources */,
 				F5CBD66A2010235A00C6549B /* SignInVC.swift in Sources */,
 				F5F8F8E82011950D0016EDEA /* SignUpVC.swift in Sources */,
 				F5CBD6682010235A00C6549B /* AppDelegate.swift in Sources */,
 				F5818919201D22140003DC6D /* InputVC.swift in Sources */,
 				F581891D201D3A700003DC6D /* OutputVC.swift in Sources */,
+				F54840B220295BF900FBCC74 /* teleopVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
